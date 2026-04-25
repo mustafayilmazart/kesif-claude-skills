@@ -1,0 +1,19 @@
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Cache
+.cache/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Dahili
+.claude/
+*.private.md
