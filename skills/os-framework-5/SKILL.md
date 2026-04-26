@@ -21,7 +21,7 @@ Instagram'da viral olan "20 tools and 5 folders with 1 system" yaklaşımının 
 ## Klasör Yapısı
 
 ```
-D:\0\projeler\<proje-adı>\
+<workspace>\projeler\<proje-adı>\
 ├── 01-build-os\      # Ürün inşası (kod, MVP, prototip)
 ├── 02-think-os\      # Strateji, karar kayıtları, connecting dots
 ├── 03-make-os\       # İçerik üretimi (volume)
