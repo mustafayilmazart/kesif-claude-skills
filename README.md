@@ -68,7 +68,7 @@ Detay: bkz. [SECURITY.md](SECURITY.md).
 ## 🚀 Kurulum
 
 ```bash
-git clone https://github.com/mustafayilmazart/claude-skills-curated
+git clone https://github.com/mustafayilmazart/kesif-claude-skills
 cd claude-skills-curated
 
 # Kullanmak istediğiniz skill'leri global skills dizininize kopyalayın
