@@ -37,12 +37,16 @@ mkdir -p "%USERPROFILE%\.claude\plugins"
 
 # Her plugin için ayrı klasör
 cd "%USERPROFILE%\.claude\plugins"
-git clone https://github.com/kesif/claude-plugin-planner planner
-git clone https://github.com/kesif/claude-plugin-designer designer
-git clone https://github.com/kesif/claude-plugin-reviewer reviewer
-git clone https://github.com/kesif/claude-plugin-guardian guardian
-git clone https://github.com/kesif/claude-plugin-memorian memorian
-git clone https://github.com/kesif/claude-plugin-captain captain
+# NOT: Aşağıdaki repolar şablon/örnek niteliğindedir.
+# Kendi plugin koleksiyonunuzu oluşturun veya
+# Awesome Claude Code (https://github.com/hesreallyhim/awesome-claude-code) listesinden
+# uyumlu plugin'ler bulun.
+git clone https://github.com/<your-org>/claude-plugin-planner planner
+git clone https://github.com/<your-org>/claude-plugin-designer designer
+git clone https://github.com/<your-org>/claude-plugin-reviewer reviewer
+git clone https://github.com/<your-org>/claude-plugin-guardian guardian
+git clone https://github.com/<your-org>/claude-plugin-memorian memorian
+git clone https://github.com/<your-org>/claude-plugin-captain captain
 ```
 
 ## Kullanım Akışı

@@ -60,7 +60,7 @@ Bu repo şunu sunar: **15-20 skill, hepsi yazarın kendi pipeline'larında dahil
 ## 🚀 Kurulum
 
 ```bash
-git clone https://github.com/kpmustafayilmaz/claude-skills-curated
+git clone https://github.com/mustafayilmazart/claude-skills-curated
 cd claude-skills-curated
 
 # Kullanmak istediğiniz skill'leri global skills dizininize kopyalayın
