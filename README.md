@@ -57,6 +57,14 @@ Bu repo şunu sunar: **15-20 skill, hepsi yazarın kendi pipeline'larında dahil
 
 ---
 
+## ⚠️ Önemli Uyarılar
+
+- **Instagram/Meta Graph API:** `instagram-orkestrasyon` toplu otomatik paylaşım Meta ToS §4.2 — Publishing API erişimi gerekir, standart hesapta hesap askıya alma riski. Manuel onay modu zorunlu.
+- **3. taraf API maliyetleri:** ElevenLabs, NotebookLM, Suno → kendi hesabınızdan faturalanır.
+- **AS IS:** Yazarın kendi pipeline'larında kullanılır; üçüncü tarafta garanti yok.
+
+Detay: bkz. [SECURITY.md](SECURITY.md).
+
 ## 🚀 Kurulum
 
 ```bash
