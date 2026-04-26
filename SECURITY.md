@@ -2,7 +2,7 @@
 
 ## Reporting / Bildirim
 
-**medya@kesif.org** — public issue açmayın / do not open public issues.
+**bilgi@mustafayilmaz.art** — public issue açmayın / do not open public issues.
 
 72 saat yanıt, 14 gün düzeltme hedefi.
 
