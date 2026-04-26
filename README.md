@@ -69,7 +69,7 @@ Detay: bkz. [SECURITY.md](SECURITY.md).
 
 ```bash
 git clone https://github.com/mustafayilmazart/kesif-claude-skills
-cd claude-skills-curated
+cd kesif-claude-skills
 
 # Kullanmak istediğiniz skill'leri global skills dizininize kopyalayın
 # Windows
