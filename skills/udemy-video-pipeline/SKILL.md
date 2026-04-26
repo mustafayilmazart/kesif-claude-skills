@@ -47,7 +47,7 @@ python ~/.claude/skills/udemy-video-pipeline/scripts/create_course.py \
   "Bagimlilik Norobiyolojisi" \
   --sections 5 \
   --voice "Kesif -TR" \
-  --output-dir D:/0/udemy-courses/bagimlilik
+  --output-dir <workspace>/udemy-courses/bagimlilik
 ```
 
 ### Sadece Script Uret
@@ -55,18 +55,18 @@ python ~/.claude/skills/udemy-video-pipeline/scripts/create_course.py \
 ```bash
 python ~/.claude/skills/udemy-video-pipeline/scripts/generate_script.py \
   --topic "Bagimlilik Norobiyolojisi" \
-  --analysis D:/0/notebooklm/output/bagimlilik-analysis.md \
+  --analysis <workspace>/notebooklm/output/bagimlilik-analysis.md \
   --sections 5 \
-  --output D:/0/udemy-courses/bagimlilik/script.json
+  --output <workspace>/udemy-courses/bagimlilik/script.json
 ```
 
 ### Script'ten Seslendirme
 
 ```bash
 python ~/.claude/skills/udemy-video-pipeline/scripts/narrate_script.py \
-  --script D:/0/udemy-courses/bagimlilik/script.json \
+  --script <workspace>/udemy-courses/bagimlilik/script.json \
   --voice "Kesif -TR" \
-  --output-dir D:/0/udemy-courses/bagimlilik/audio
+  --output-dir <workspace>/udemy-courses/bagimlilik/audio
 ```
 
 ## Script Formati (JSON)

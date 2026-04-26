@@ -65,8 +65,8 @@ def main():
     # Kaynak kontrolu
     if not args.mindmap and not args.analysis:
         # Varsayilan yollara bak
-        default_mindmap = f"D:/0/notebooklm/output/{args.topic.lower().replace(' ', '-')}-mindmap.json"
-        default_analysis = f"D:/0/notebooklm/output/{args.topic.lower().replace(' ', '-')}-analysis.md"
+        default_mindmap = f"<workspace>/notebooklm/output/{args.topic.lower().replace(' ', '-')}-mindmap.json"
+        default_analysis = f"<workspace>/notebooklm/output/{args.topic.lower().replace(' ', '-')}-analysis.md"
 
         if os.path.exists(default_mindmap):
             args.mindmap = default_mindmap

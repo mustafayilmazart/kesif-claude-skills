@@ -8,9 +8,9 @@ description: Uzun prompt veya dosya içeriğini Claude/Gemini/Groq'a göndermede
 ## Kullanım
 
 ```bash
-python D:/0/000MCP-Servers/kesif-token-optimizer/src/compressor.py "metin"
+python <workspace>/mcp-servers/kesif-token-optimizer/src/compressor.py "metin"
 # veya
-cat uzun.md | python D:/0/000MCP-Servers/kesif-token-optimizer/src/compressor.py
+cat uzun.md | python <workspace>/mcp-servers/kesif-token-optimizer/src/compressor.py
 ```
 
 ## Ne zaman otomatik kullan
@@ -36,4 +36,4 @@ cat uzun.md | python D:/0/000MCP-Servers/kesif-token-optimizer/src/compressor.py
 
 Her çağrıda stats döner:
 - `char_saving_pct`, `word_saving_pct` — tasarruf oranı
-- Aylık toplam: `D:/0/scripts/connectome/output/token_stats.json`
+- Aylık toplam: `<workspace>/scripts/connectome/output/token_stats.json`

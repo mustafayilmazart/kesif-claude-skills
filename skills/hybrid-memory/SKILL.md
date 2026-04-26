@@ -17,7 +17,7 @@ Kaynak (sohbet, kod, mail) ──→ Ingestor
                                    ↓
                           Wiki Compiler (günlük)
                                    ↓
-                       D:/0/.memory/compiled/*.md
+                       <workspace>/.memory/compiled/*.md
                                    ↓
                       Claude Code oturum başında yükler
 ```
@@ -25,7 +25,7 @@ Kaynak (sohbet, kod, mail) ──→ Ingestor
 ## İlk kurulum
 
 ```bash
-mkdir -p D:/0/.memory/{vectors,graph,compiled}
+mkdir -p <workspace>/.memory/{vectors,graph,compiled}
 pip install chromadb networkx
 ```
 
@@ -41,7 +41,7 @@ compile_wiki()  # periyodik — cron ile günlük
 
 ## Obsidian Entegrasyonu
 
-`D:/0/.memory/compiled/` bir Obsidian vault. Her `compile_wiki()` çağrısı:
+`<workspace>/.memory/compiled/` bir Obsidian vault. Her `compile_wiki()` çağrısı:
 - Entity'leri `[[wiki-link]]` ile bağlar
 - Tarih bazlı günlük notlar üretir
 - Tag index'i günceller

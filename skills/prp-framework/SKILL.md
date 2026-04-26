@@ -321,7 +321,7 @@ Sistem:
 ### Senaryo 3: Refactoring
 
 ```
-"D:/0/000Portal/src/api/ klasörünü async'e geçirmek için PRP oluştur"
+"<workspace>/portal/src/api/ klasörünü async'e geçirmek için PRP oluştur"
 ```
 
 Sistem:
